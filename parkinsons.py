@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
 # Load the trained model
-model = pickle.load(open(r'D:\streamlit\env\Disease_prediction\parkinsons.pkl', 'rb'))
+model = pickle.load(open(r'/workspaces/Parkinsons-disease-prediction/parkinsons.pkl', 'rb'))
 
 st.title("Parkinson's Disease Prediction")
 
